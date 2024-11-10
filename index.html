@@ -296,8 +296,14 @@
           <div class="card-action">
             <span>Jan 2024 - May 2024 | Princeton, NJ</span>
           </div>
-        </div>
-
+          <!-- Hidden video section -->
+          <div class="video-section" id="video-section-1" style="display: none;">
+           <video width="320" height="240" controls>
+            <source src="/assets/videos/experiment1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          </div>
+          </div>
         
         <div class="card">
           <div class="card-content">
@@ -310,7 +316,7 @@
               <div class="col s12 m10">
                 <p>
                   <span class="card-title"><a href="https://ssr.princeton.edu" target="_blank"
-                      class="teal-text hoverline">Self-Organizing Swarms <br> & Robotics Group</a></span>
+                      class="teal-text hoverline">Self-Organizing Swarms & <br> Robotics Group</a></span>
                 </p>
               </div>
             </div>
@@ -339,9 +345,16 @@
           <div class="card-action">
             <span>Jan 2023 - Present | Princeton, NJ</span>
           </div>
-        </div>
+          <!-- Hidden video section -->
+          <div class="video-section" id="video-section-1" style="display: none;">
+            <video width="320" height="240" controls>
+            <source src="/assets/videos/experiment2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            </div>
+            </div>
 
-        <!-- Experience 2 -->
+        <!-- Experience 3 -->
         <div class="card">
           <div class="card-content">
             <div class="row">
@@ -381,9 +394,16 @@
           <div class="card-action">
             <span>May 2024 - July 2024 | West Lafayette, IN</span>
           </div>
+        <!-- Hidden video section -->
+       <div class="video-section" id="video-section-1" style="display: none;">
+       <video width="320" height="240" controls>
+          <source src="/assets/videos/experiment3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
         </div>
 
-        <!-- Experience 3 -->
+        <!-- Experience 4 -->
         <div class="card">
           <div class="card-content">
             <div class="row">
@@ -415,8 +435,13 @@
           <div class="card-action">
             <span>June 2023 - Sep 2023 | Remote</span>
           </div>
-        </div>
-
+        <!-- Hidden video section -->
+       <div class="video-section" id="video-section-1" style="display: none;">
+       <video width="320" height="240" controls>
+          <source src="/assets/videos/experiment4.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
       </div>
     </section>
 
@@ -445,25 +470,24 @@
                     class="mdi-navigation-close right"></i></span>
                 <ul>
                   <li><b>Tools:</b> Python, Scikit-learn, Machine Learning models, Data Aggregation Tools, Algorithms</li>
-                  <li>Developed a dataset from AllTrails, NOAA, and NASA FIRMS; used geospatial clustering and machine 
-                    learning models to predict forest fires with a focus on minimizing false negatives.</li>
-                  <li>Implemented and compared models like Histogram-Based Gradient Boosting, Logistic Regression, and
-                     Random Forests to identify the best-performing model for fire prediction.
-                    .</li>
-                  <li>Collected and processed geospatial data from multiple sources to enhance predictive analytics.</li>
-                  <li>Applied clustering algorithms to improve data quality and model performance.</li>
-
-
+                  <li><strong>Fire Prediction Project</strong></li>
+                  <ul>
+                    <li>Dataset from AllTrails, NOAA, and NASA</li>
+                    <li>Model testing: Gradient Boosting, Logistic Regression, Random Forest</li>
+                    <li>Geospatial data and clustering for analytics</li>
+                  </ul>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/music-player"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
+                  <!-- Link to GitHub repository -->
+              <a href="https://github.com/BRIANMMARI10/SML312_FinalProject" target="_blank" aria-label="View GitHub Repository"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                <i class="fa fa-github"></i>
+              </a>
+              <!-- Link to final paper/report -->
+              <a href="/assets/reports/SML312_FinalProject.pdf.pdf" target="_blank" aria-label="View Final Report"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                <i class="fa fa-file-text"></i>
+              </a>
                 </div>
               </div>
             </div>
@@ -488,11 +512,12 @@
                     class="mdi-navigation-close right"></i></span>
                 <ul>
                   <li><b>Tools:</b> Python, ROS, iLQR algorithms, and onboard sensors for perception and control</li>
-                  <li>Implemented an iLQR policy and a receding horizon planner to navigate 
-                    predefined waypoints and avoid obstacles, achieving 3rd place in lap time.</li>
-                  <li>Developed a safety filter to assess and intervene in driver control actions 
-                    when unsafe conditions were detected.</li>
-
+                  <li><strong>Autonomous Navigation</strong></li>
+                  <ul>
+                  <li>iLQR and horizon planning for obstacle avoidance</li>
+                  <li>3rd place in lap time</li>
+                  <li>Safety filter for driver action correction</li>
+                  </ul>
                 </ul>
                 <div class="card-action">
                   <a aria-label="Visit " href="https://quiz-up-app.herokuapp.com/" target="_blank" data-position="top"
@@ -508,52 +533,15 @@
             </div>
           </div>
 
-          <!-- 1. Django Project -->
-          <!-- <div class="col s12 m6 l6">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="django web app" src="/assets/img/project-library-logo.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Local Library Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A web-app that creates an online catalog for a small local library, where users can browse available books and manage their accounts.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, SQLite, Django, Heroku</li>
-                  <li>Users can view list and detail information for books and authors.</li>
-                  <li>Admin users can create and manage models.</li>
-                  <li>Librarians can renew reserved books.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://django-local-lib.herokuapp.com" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/django-local-library"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
           <!-- Flask Project -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of web app" src="/assets/img/project-blog-logo.jpg"
+                <img alt="Screenshot of web app" src="/assets/img/carwithgloves.heic"
                 style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Blog Web-App<i
+                <span class="card-title activator teal-text hoverline">Autonomous Car Lab Project<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
                 Hand gesture control on a PID-tuned autonomous car.
@@ -566,22 +554,29 @@
                     class="mdi-navigation-close right"></i></span>
                 <ul>
                   <li><b>Tools:</b> PSOC, Python, embedded systems, PCB design, ESP32, and flex sensors</li>
-                  <li>Implemented a PI control system to guide an autonomous vehicle up and down a ramp within a set timeframe.</li>
-                  <li>Developed a glove-based wireless control interface using flex sensors for directional control.</li>
-                  <li>Contributed to the design of power, video, and motor boards, integrating a Hall-effect sensor for accurate speed measurement.</li>
-
-
-
+                  <li><strong>Autonomous Vehicle Control</strong></li>
+                <ul>
+                <li>PI system for timed ramp navigation</li>
+                <li>Wireless glove control with flex sensors</li>
+                <li>Precision speed tracking with Hall-effect sensor</li>
+                </ul>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/flask-blog"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
+                  <a href="https://github.com/BRIANMMARI10/Car-and-Glove-Project" target="_blank" aria-label="View GitHub Repository"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                <i class="fa fa-github"></i>
+              </a>
+              <!-- Link to final paper/report -->
+              <!-- Separate buttons for each deliverable -->
+             <a href="/assets/reports/SPEED CONTROL REPORT.pdf.pdf" target="_blank" aria-label="View Final Report" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+              <i class="fa fa-file-text"></i>
+            </a>
+            <a href="/assets/reports/NAVIGATION REPORT.pdf.pdf" target="_blank" aria-label="View Dataset Summary" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+            <i class="fa fa-database"></i>
+            </a>
+            <a href="/assets/reports/FINAL PROJECT REPORT.pdf.pdf" target="_blank" aria-label="View Presentation" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+            <i class="fa fa-slideshare"></i>
+            </a>
                 </div>
               </div>
             </div>
@@ -607,17 +602,25 @@
                     class="mdi-navigation-close right"></i></span>
                 <ul>
                   <li><b>Tools:</b> Java, Python, Twilio API</li>
-                  <li>Developed an SMS-based weather notification system to deliver real-time rainfall updates to Tanzanian farmers.</li>
-                  <li>Extracted and processed rainfall data from the Tanzania Meteorological Authority’s CSV files to enhance server 
-                    performance and accessibility.</li>
-
+                  <li><strong>SMS Updates for Tanzanian Farmers</strong></li>
+                  <ul>
+                  <li>SMS Updates for Tanzanian Farmers.</li>
+                  <li>Real-time rainfall alerts.</li>
+                  <li>Enhanced server speed and data accessibility</li>
+                  <ul>
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/varadbhogayata/visual-question-answering" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
+                <!-- GitHub link -->
+                 <a href="https://github.com/BRIANMMARI10/Tanzania-Weather-SMS" target="_blank" aria-label="View GitHub Repository"
+                class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                <i class="fa fa-github"></i>
+                </a>
+   
+                <!-- YouTube video link -->
+                <a href="https://youtu.be/YClk9BPwjW4?si=km_szSO34RR70rkJ" target="_blank" aria-label="Watch Project Demo"
+                class="btn-floating btn-large waves-effect waves-light red tooltipped">
+                <i class="fa fa-youtube-play"></i>
+                </a>
                 </div>
               </div>
             </div>
@@ -638,19 +641,19 @@
             <h4 class="brown-text light">Equipment Expertise</h4>
             <div class="row text-center">
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Oscilloscopes
+                <img alt="" src="/assets/img/oscilloscope.jpeg" class="responsive-img" />Oscilloscopes
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />Digital multimeters
+                <img alt="" src="/assets/img/dmm.jpeg" class="responsive-img" />Digital multimeters
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />Function generators
+                <img alt="" src="/assets/img/function_generators.jpeg" class="responsive-img" />Function generators
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />Voltage & Current probes
+                <img alt="" src="/assets/img/probes.jpeg" class="responsive-img" />Voltage & Current probes
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/postgresql-logo.png" class="responsive-img" />Micro-controllers
+                <img alt="" src="/assets/img/microcontrollers.jpeg" class="responsive-img" />Micro-controllers
               </div>
             </div>
           </div>
@@ -687,45 +690,44 @@
               <div class="col s4 m2">
          
    
-                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" /> Java
+                <img alt="" src="/assets/img/java.png" class="responsive-img" /> Java
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Python
+                <img alt="" src="/assets/img/python.jpeg" class="responsive-img" />Python
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />C/C++
+                <img alt="" src="/assets/img/c:c++.jpeg" class="responsive-img" />C/C++
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />Shell scripting
+                <img alt="" src="/assets/img/shell.jpeg" class="responsive-img" />Shell scripting
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />ROS
+                <img alt="" src="/assets/img/ros.png" class="responsive-img" />ROS
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/tensorflow-logo-1.png" class="responsive-img" />Embedded Systems
+                <img alt="" src="/assets/img/embedded_systems.png" class="responsive-img" />Embedded Systems
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />MATLAB & Simulink
+                <img alt="" src="/assets/img/matlab&simulink.jpeg" class="responsive-img" />MATLAB & Simulink
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />Fusion360
+                <img alt="" src="/assets/img/fusion.png" class="responsive-img" />Fusion360
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />Docker
+                <img alt="" src="/assets/img/docker.png" class="responsive-img" />Docker
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />Verilog
+                <img alt="" src="/assets/img/verilog.png" class="responsive-img" />Verilog
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PCB Design
+                <img alt="" src="/assets/img/pcb.png" class="responsive-img" />PCB Design
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />Prototype Development
+                <img alt="" src="/assets/img/protodev.png class="responsive-img" />Prototype Development
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />SPICE
+                <img alt="" src="/assets/img/spice.png" class="responsive-img" />SPICE
               </div>
-
 
             </div>
           </div>
@@ -736,7 +738,6 @@
           <div class="card-content">
             <h4 class="brown-text light">Other</h4>
             <div class="row text-center">
-
 
               <div class="col s4 m2">
                 <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
@@ -870,6 +871,18 @@
       typeSpeed: 80,
       backSpeed: 40
     });
+  </script>
+
+  <!-- Add your toggleVideo function here -->
+  <script>
+      function toggleVideo(id) {
+    const videoSection = document.getElementById(id);
+    if (videoSection.style.display === "none" || videoSection.style.display === "") {
+      videoSection.style.display = "block"; // Show the video section
+    } else {
+      videoSection.style.display = "none"; // Hide the video section
+    }
+    }
   </script>
 
 
