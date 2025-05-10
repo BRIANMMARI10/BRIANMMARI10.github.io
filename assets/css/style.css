@@ -698,4 +698,10 @@ small {
   #intro.section {
     background-position-x: 30%;
   }
+  .card-image img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
 }
